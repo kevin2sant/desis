@@ -3,6 +3,18 @@
 ## Requisitos previos
 - XAMPP instalado en su computadora para poder ejecutar el proyecto localmente.
 
+## Verificar la extensión de PostgreSQL en XAMPP
+Antes de ejecutar el proyecto, asegúrese de que la extensión de PostgreSQL esté habilitada en XAMPP. Para verificar esto:
+
+1. Navegue a la carpeta de instalación de XAMPP en su computadora.
+2. Encuentre el archivo `php.ini`, por lo general ubicado en la carpeta `xampp/php`.
+3. Abra el archivo `php.ini` con un editor de texto.
+4. Busque las siguientes líneas:
+;extension=pdo_pgsql
+;extension=pgsql
+5. Si encuentra un `;` al inicio de estas líneas, eso significa que las extensiones están comentadas y, por lo tanto, desactivadas. Para habilitarlas, simplemente elimine los `;` al inicio de cada línea.
+6. Guarde los cambios y cierre el archivo `php.ini`.
+
 ## Descargar y configurar el proyecto
 1. Descargue la carpeta del proyecto desde el repositorio de GitHub.
 
