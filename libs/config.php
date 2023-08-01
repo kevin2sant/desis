@@ -2,7 +2,7 @@
 	$host= gethostname();
 	$ip = gethostbyname($host);
 	
-	define('URL', 'http://localhost/desis/');
+	define('URL', 'http://localhost/desis_kevin/');
 	define('PROTECTED_URL', constant('URL').'/public/');
 
 	define('HOST','162.240.73.135');

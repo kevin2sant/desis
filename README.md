@@ -30,7 +30,7 @@ Antes de ejecutar el proyecto, asegúrese de que la extensión de PostgreSQL est
 
 2. Coloque la carpeta del proyecto descargado en la carpeta `htdocs` de XAMPP.
 
-3. Guarde el proyecto con el nombre de la carpeta `desis` en caso de guardarlo con otro nombre ir al archivo `./libs/config.php` y modificar `define('URL', 'http://localhost/desis/');` por `define('URL', 'http://localhost/nombre-de-su-carpeta/');`
+3. Guarde el proyecto con el nombre de la carpeta `desis` en caso de guardarlo con otro nombre ir al archivo `./libs/config.php` y modificar `define('URL', 'http://localhost/desis_kevin/');` por `define('URL', 'http://localhost/nombre-de-su-carpeta/');`
 
 4. Acceda al proyecto a través de su navegador web mediante la siguiente URL: `http://localhost/nombre-de-la-carpeta-del-proyecto`.
 
