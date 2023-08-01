@@ -26,11 +26,13 @@ Antes de ejecutar el proyecto, asegúrese de que la extensión de PostgreSQL est
 
 ## Ejecutar el proyecto
 
-4. Asegúrese de tener XAMPP ejecutándose y los servicios de Apache y PostgreSQL activados.
+1. Asegúrese de tener XAMPP ejecutándose y los servicios de Apache y PostgreSQL activados.
 
-5. Coloque la carpeta del proyecto descargado en la carpeta `htdocs` de XAMPP.
+2. Coloque la carpeta del proyecto descargado en la carpeta `htdocs` de XAMPP.
 
-6. Acceda al proyecto a través de su navegador web mediante la siguiente URL: `http://localhost/nombre-de-la-carpeta-del-proyecto`.
+3. Guarde el proyecto con el nombre de la carpeta `desis` en caso de guardarlo con otro nombre ir al archivo `./libs/config.php` y modificar `define('URL', 'http://localhost/desis/');` por `define('URL', 'http://localhost/nombre-de-su-carpeta/');`
+
+4. Acceda al proyecto a través de su navegador web mediante la siguiente URL: `http://localhost/nombre-de-la-carpeta-del-proyecto`.
 
 ## Importante: No modificar el archivo .htaccess
 
