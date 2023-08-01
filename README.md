@@ -34,6 +34,9 @@ Antes de ejecutar el proyecto, asegúrese de que la extensión de PostgreSQL est
 
 4. Acceda al proyecto a través de su navegador web mediante la siguiente URL: `http://localhost/nombre-de-la-carpeta-del-proyecto`.
 
+## En caso de no poder instalar la aplicación
+Si por alguna razón no puedes instalar la aplicación localmente, se ha dispuesto una URL para visualizarla en línea. Puedes acceder a la aplicación en el siguiente enlace: [Visualizar la aplicación en línea](https://www.lidiachile.cl/desis_kevin/).
+
 ## Importante: No modificar el archivo .htaccess
 
 El proyecto cuenta con un archivo llamado `.htaccess`, el cual está configurado para manejar URLs amigables y permitir un mejor manejo de los controladores. Por lo tanto, es fundamental no modificar ni tocar este archivo para evitar problemas en el funcionamiento del proyecto.
